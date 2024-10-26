@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Heder = () => {
+const Header = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Heder = () => {
   )
 }
 
-export default Heder
+export default Header;
