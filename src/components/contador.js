@@ -8,11 +8,11 @@ const Contador = () => {
 
    const [state, dispatch] = useReducer(reducer, initialState)
 
-   const sumar = () => dispatch({type: TYPES.INCREMENTAR, payload: 1000})
+   const sumar = () => dispatch({type: TYPES.INCREMENTAR, payload: 1})
 
    const resetear = () => dispatch({type: TYPES.RESETEAR})
 
-   const restar = () => dispatch({type: TYPES.DECREMENTAR, payload: 1000})
+   const restar = () => dispatch({type: TYPES.DECREMENTAR, payload: 1})
    
   
 
