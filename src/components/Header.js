@@ -11,7 +11,7 @@ const Header = () => {
     <header className={toggleTheme}>
       <button onClick={handleTheme}>
         <Image
-          src={toggleTheme === "light" ? "/sunDark.png" : "/sun.png"} //Ternario
+          src={toggleTheme === "light" ? "/sun.png" : "/sunDark.png"} //Ternario
           alt="theme-logos"
           width={30}
           height={30}
