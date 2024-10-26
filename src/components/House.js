@@ -1,11 +1,20 @@
-import React from 'react'
+import { ThemeContext } from "@/context/ThemeContextProvider"
+import { useContext } from "react"
+
+
 
 const House = () => {
+
+const data = useContext(ThemeContext);
+const [toggleTheme] = data;
+
   return (
-    <div>
-      
-    </div>
+    <div style={{
+      height: "100vh"
+    }}
+    className={toggleTheme}
+    >Home</div>
   )
 }
 
-export default House; 
+export default House;
