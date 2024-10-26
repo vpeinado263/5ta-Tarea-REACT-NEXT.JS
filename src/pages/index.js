@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import House from "@/components/House";
+import ThemeContextProvider, { ThemeContext } from "@/context/ThemeContextProvider";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,11 +13,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
-      <main>
-        <House/>
-      </main>
-      <Footer/>
+      <ThemeContextProvider>
+         <Header/>
+          <main>
+            <House/>
+          </main>
+          <Footer/>
+      </ThemeContextProvider>
     </>
   );
 }
