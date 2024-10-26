@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hear = () => {
+const Home = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Hear = () => {
   )
 }
 
-export default Hear
+export default Home
