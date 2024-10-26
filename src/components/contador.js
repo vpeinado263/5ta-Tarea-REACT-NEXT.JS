@@ -1,7 +1,7 @@
 import {useReducer} from 'react'
-import { TYPES } from '@/actions/actions';
-import { initialState } from '@/reducer/initialState';
-import { reducer } from '@/reducer/reducer';
+import { TYPES } from '../actions/actions'
+import { initialState } from '../reducer/initial.State';
+import { reducer } from '../reducer/reducer';
 
 
 const Contador = () => {

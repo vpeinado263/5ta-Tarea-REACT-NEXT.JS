@@ -1,3 +1,4 @@
+import Contador from "@/components/contador";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import House from "@/components/House";
@@ -17,6 +18,7 @@ export default function Home() {
          <Header/>
           <main>
             <House/>
+            <Contador/>
           </main>
           <Footer/>
       </ThemeContextProvider>
